@@ -33,8 +33,19 @@ a {
     text-decoration: none;
 }
 
+header a {
+    color: var(--db-black);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
 footer {
     background-color: var(--db-black);
+}
+
+
+header a:hover,footer a:hover {
+    text-decoration: underline;
 }
 
 footer, footer a{
@@ -275,6 +286,12 @@ nav li {
 .col_8 {
     width: calc(100% / 12 * 8);
     min-width: 200px;
+}
+
+.btn_blue a {
+    background-color: var(--db-btn);
+    color: var(--db-white);
+    padding: 0.25rem 1rem;
 }
 /* #endregion utilities */
 
