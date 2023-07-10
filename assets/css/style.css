@@ -58,21 +58,25 @@ nav li {
 
 /* section planes */
 
-#billing {
-    gap: 2rem;
-}
 #billing > div {
     gap: 0.5rem;
     align-items: center;
 }
 
-#planes .row {
-    gap: 2rem;
-}
-
 #planes #enterprise {
     margin-top: 2rem;
 }
+
+/* /section operations */
+#operations .row .col_4 {
+    padding: 1.5rem;
+}
+
+#operations .row {
+    margin: 0 -1.5rem;
+}
+
+
 
 /* #endregion main */
 
@@ -93,6 +97,17 @@ nav li {
 
 .flex_end {
     justify-content: flex-end;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+
+.gap_4 {
+    gap: 2rem;
+}
+
+.gap_2 {
+    gap: 1rem;
 }
 
 .text_center {
@@ -117,15 +132,19 @@ nav li {
 
 .col_4 {
     width: calc(100% / 12 * 4);
+    min-width: 200px;
 }
 .col_5 {
     width: calc(100% / 12 * 5);
+    min-width: 200px;
 }
 .col_7 {
     width: calc(100% / 12 * 7);
+    min-width: 200px;
 }
 .col_8 {
     width: calc(100% / 12 * 8);
+    min-width: 200px;
 }
 /* #endregion utilities */
 
@@ -150,7 +169,7 @@ nav li {
     border: 1px dashed black;
 }
 
-.debug .container_centered {
+.debug [class^=container_centered]{
     border: 1px dashed black;
     min-height: 200px;
 }
