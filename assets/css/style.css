@@ -17,6 +17,16 @@ body {
     --db-btn: rgb(0, 97, 255);
     --db-bg-jumbo: rgb(180, 208, 231);
     --db-business: rgb(97, 8, 43);
+
+    --db-big-square: rgb(245, 245, 245);
+    --db-square1: rgb(163, 211, 154);
+    --db-square2: rgb(96, 9, 43);
+    --db-square3: rgb(1, 146, 208);
+    --db-square4: rgb(254, 28, 29);
+    --db-square5: rgb(212, 1, 31);
+    --db-square6: rgb(180, 208, 231);
+    --db-square7: rgb(13, 37, 128);
+    --db-square8: rgb(254, 216, 49);
 }
 
 a {
@@ -67,13 +77,69 @@ nav li {
     margin-top: 2rem;
 }
 
-/* /section operations */
+/* section partner */
+#partner .col_5 {
+    padding: 3rem;
+}
+
+/* section operations */
 #operations .row .col_4 {
     padding: 1.5rem;
 }
 
 #operations .row {
     margin: 0 -1.5rem;
+}
+
+/* section clients */
+
+#container_box_client .left_box > div, #container_box_client .right_box > div {
+    width: 50%;
+    aspect-ratio: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clients img {
+    width: 50%;
+}
+
+#clients .left_box img, #clients .right_box img {
+    filter: invert(100%) sepia(99%) saturate(2%) hue-rotate(252deg) brightness(107%) contrast(100%);
+}
+
+#clients .description_box {
+    padding: 2rem;
+}
+#clients .description_box > div {
+    padding-bottom: 2rem;
+}
+
+.square_1 {
+    background-color: var(--db-square1);
+}
+.square_2 {
+    background-color: var(--db-square2);
+}
+.square_3 {
+    background-color: var(--db-square3);
+}
+.square_4 {
+    background-color: var(--db-square4);
+}
+.square_5 {
+    background-color: var(--db-square5);
+}
+.square_6 {
+    background-color: var(--db-square6);
+}
+.square_7 {
+    background-color: var(--db-square7);
+}
+.square_8 {
+    background-color: var(--db-square8);
 }
 
 
@@ -235,7 +301,8 @@ nav li {
     min-height: 200px;
 }
 
-.debug #partner .col_5 {
-    padding: 3rem;
+.debug #clients {
+    background-color: springgreen;
 }
+
 /* #endregion debug */
