@@ -44,6 +44,40 @@ nav li {
     background-color: var(--db-bg-jumbo);
 }
 
+#jumbo_head {
+    font-size: 2rem;
+}
+
+#jumbo_description, #jumbo_img {
+    margin-top: 1rem;
+}
+
+#jumbo_description > div {
+    padding-bottom: 1rem;
+}
+
+/* section planes */
+
+#billing {
+    gap: 2rem;
+}
+#billing > div {
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#planes > div.container_centered {
+    padding: 8rem;
+}
+
+#planes .row {
+    gap: 2rem;
+}
+
+#planes #enterprise {
+    margin-top: 2rem;
+}
+
 /* #endregion main */
 
 
@@ -63,6 +97,10 @@ nav li {
 
 .flex_end {
     justify-content: flex-end;
+}
+
+.text_center {
+    text-align: center;
 }
 
 .unstyled_list {
@@ -92,7 +130,7 @@ nav li {
 }
 
 .debug main {
-    height: 1000px;
+    min-height: 1000px;
     background-color: blue;
 }
 
@@ -113,7 +151,6 @@ nav li {
 .debug #jumbo_head {
     min-height: 50px;
     background-color: rgb(71, 71, 71);
-    font-size: 2rem;
 }
 
 .debug #jumbo_content {
@@ -127,11 +164,41 @@ nav li {
     border: 1px dashed black;
 }
 
-#jumbo_description, #jumbo_img {
-    margin-top: 1rem;
+.debug #planes {
+    background-color: bisque;
 }
 
-#jumbo_description > div {
-    padding-bottom: 1rem;
+.debug #planes h3 {
+    border: 1px dashed;
+    font-size: 1.5rem;
 }
+
+.debug #billing > div {
+    border: 1px dashed;
+}
+
+.debug #planes .row > .col_4 {
+    min-height: 600px;
+}
+
+.debug #planes .col_4 > div {
+    border: 1px dashed;
+    padding: 1rem;
+}
+
+.debug #planes a {
+    border: 1px dashed red;
+    background-color: blue;
+    color: white;
+}
+
+.debug [class^=col_] {
+    border: 1px dashed;
+    background-color: red;
+}
+
+.debug #enterprise {
+    background-color: red;
+}
+
 /* #endregion debug */
