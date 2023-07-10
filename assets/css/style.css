@@ -28,11 +28,23 @@ a {
 
 
 /* #region header */
+
 nav li {
     padding: 1rem;
 }
+
 /* #endregion header */
 
+
+
+/* #region main */
+
+/* section jumbo */
+#jumbo {
+    background-color: var(--db-bg-jumbo);
+}
+
+/* #endregion main */
 
 
 
@@ -57,10 +69,18 @@ nav li {
     list-style: none;
 }
 
+.container_centered {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
 
 
 .col_4 {
     width: calc(100% / 12 * 4);
+}
+.col_8 {
+    width: calc(100% / 12 * 8);
 }
 /* #endregion utilities */
 
@@ -83,5 +103,35 @@ nav li {
 
 .debug nav li {
     border: 1px dashed black;
+}
+
+.debug .container_centered {
+    border: 1px dashed black;
+    min-height: 200px;
+}
+
+.debug #jumbo_head {
+    min-height: 50px;
+    background-color: rgb(71, 71, 71);
+    font-size: 2rem;
+}
+
+.debug #jumbo_content {
+    background-color: rgb(243, 101, 0);
+    min-height: 200px;
+}
+
+.debug #jumbo_description, .debug #jumbo_img {
+    background-color: yellow;
+    min-height: 200px;
+    border: 1px dashed black;
+}
+
+#jumbo_description, #jumbo_img {
+    margin-top: 1rem;
+}
+
+#jumbo_description > div {
+    padding-bottom: 1rem;
 }
 /* #endregion debug */
