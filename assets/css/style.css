@@ -66,10 +66,6 @@ nav li {
     align-items: center;
 }
 
-#planes > div.container_centered {
-    padding: 8rem;
-}
-
 #planes .row {
     gap: 2rem;
 }
@@ -113,9 +109,20 @@ nav li {
     margin: auto;
 }
 
+.container_centered_xs {
+    width: 60%;
+    max-width: 1000px;
+    margin: auto;
+}
 
 .col_4 {
     width: calc(100% / 12 * 4);
+}
+.col_5 {
+    width: calc(100% / 12 * 5);
+}
+.col_7 {
+    width: calc(100% / 12 * 7);
 }
 .col_8 {
     width: calc(100% / 12 * 8);
@@ -178,7 +185,7 @@ nav li {
 }
 
 .debug #planes .row > .col_4 {
-    min-height: 600px;
+    min-height: 200px;
 }
 
 .debug #planes .col_4 > div {
@@ -186,7 +193,7 @@ nav li {
     padding: 1rem;
 }
 
-.debug #planes a {
+.debug #planes a, #partner a {
     border: 1px dashed red;
     background-color: blue;
     color: white;
@@ -201,4 +208,15 @@ nav li {
     background-color: red;
 }
 
+
+.debug #partner {
+    background-color: chocolate;
+}
+.debug #partner .row {
+    min-height: 200px;
+}
+
+.debug #partner .col_5 {
+    padding: 3rem;
+}
 /* #endregion debug */
