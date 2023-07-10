@@ -9,4 +9,61 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* #endregion common */
+
+
+
+/* #region header */
+
+/* #endregion header */
+
+
+
+
+/* #region utilities */
+.d_flex {
+    display: flex;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.items_center {
+    align-items: center;
+}
+
+.flex_end {
+    justify-content: flex-end;
+}
+
+
+.col_4 {
+    width: calc(100% / 12 * 4);
+}
+/* #endregion utilities */
+
+
+
+/* #region debug */
+.debug header {
+    height: 50px;
+    background-color: red;
+}
+
+.debug .left_nav, .debug .right_nav {
+    background-color: aqua;
+    height: 50px;
+}
+
+.debug main {
+    height: 1000px;
+    background-color: blue;
+}
+
+.debug footer {
+    height: 400px;
+    background-color: black;
+}
+/* #endregion debug */
