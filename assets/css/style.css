@@ -143,6 +143,27 @@ nav li {
 }
 
 
+/* section faq */
+
+#faq {
+    padding-bottom: 7rem;
+}
+
+#faq h3 {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid black;
+}
+
+#faq .question {
+    border-bottom: 1px solid black;
+    padding: 2rem 0;
+}
+
+#faq .arrow {
+    font-size: 2rem;
+    padding-right: 4rem;
+}
 
 /* #endregion main */
 
@@ -304,5 +325,6 @@ nav li {
 .debug #clients {
     background-color: springgreen;
 }
+
 
 /* #endregion debug */
