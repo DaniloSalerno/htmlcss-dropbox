@@ -210,6 +210,7 @@ nav li {
 }
 
 #clients .description_box {
+    background-color: var(--db-big-square);
     padding: 2rem;
 }
 #clients .description_box > div {
@@ -241,7 +242,24 @@ nav li {
     background-color: var(--db-square8);
 }
 
+#business {
+    background-color: var(--db-bg-jumbo);
+}
+#business .container_centered_xs > div {
+    padding: 8rem 0;
+}
 
+#business .btn_light {
+    padding-left: 6rem;
+}
+
+#business .btn_light a {
+    border: none;
+}
+
+#business h3 {
+    color: var(--db-business);
+}
 /* section faq */
 
 #faq {
@@ -249,7 +267,6 @@ nav li {
 }
 
 #faq h3 {
-    padding-top: 5rem;
     padding-bottom: 3rem;
     border-bottom: 1px solid black;
 }
@@ -380,6 +397,12 @@ nav li {
     width: calc(100% / 12 * 5);
     min-width: 200px;
 }
+
+.col_6 {
+    width: calc(100% / 12 * 6);
+    min-width: 200px;
+}
+
 .col_7 {
     width: calc(100% / 12 * 7);
     min-width: 200px;
@@ -409,6 +432,10 @@ nav li {
     border: 1px solid black;
 }
 
+
+#clients .col_8 a:hover, #planes .col_4 .p_top_3 a:hover {
+    text-decoration: underline;
+}
 /* #endregion utilities */
 
 
