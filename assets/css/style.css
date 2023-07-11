@@ -271,16 +271,34 @@ nav li {
     border-bottom: 1px solid black;
 }
 
-#faq .question {
+#faq .question_row {
     border-bottom: 1px solid black;
     padding: 2rem 0;
 }
 
-#faq .arrow {
-    font-size: 2rem;
-    padding-right: 4rem;
+.answer {
+    font-size: 0.9rem;
+    display: none;
 }
 
+.question_row .arrow :last-of-type {
+    display: none;
+}
+
+.question_row:hover .answer {
+    display: block;
+}
+
+.question_row:hover .arrow :last-of-type {
+    display: block;
+}
+.question_row:hover .arrow :first-of-type {
+    display: none;
+}
+
+.question {
+    font-weight: 700;
+}
 /* #endregion main */
 
 
