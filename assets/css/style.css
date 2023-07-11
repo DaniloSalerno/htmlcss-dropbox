@@ -111,7 +111,7 @@ nav li {
     min-height: 800px;
     font-size: 0.8rem;
 }
-.plane_col > div:first-child {
+.name_plane {
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);
     padding: 0.5rem 0;
     font-size: 0.8rem;
@@ -122,16 +122,29 @@ nav li {
     padding-right: 1.5rem;
 }
 
-.plane_col h4 {
+.plane_col > div.links {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#planes .btn_blue_big a {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+#planes h4 {
     font-size: 1.5rem;
-    padding-top: 1rem;
 }
 
 .plane_block > div {
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.5rem;
 }
 
-.plane_block span {
+
+
+#planes .col_4 span {
+    padding-bottom: 1.5rem;
     border-bottom:  1px solid rgba(0, 0, 0, 0.25);
 }
 
@@ -146,8 +159,14 @@ nav li {
     font-weight: 300;
 }
 
-#planes #enterprise {
+#enterprise {
     margin-top: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    font-size: 0.8rem;
+}
+
+#enterprise .col_8 > div {
+    padding: 1.5rem;
 }
 
 
@@ -315,6 +334,10 @@ nav li {
     padding-top: 1.5rem;
 }
 
+.p_top_4 {
+    padding-top: 2rem;
+}
+
 .p_top_6 {
     padding-top: 3rem;
 }
@@ -369,7 +392,8 @@ nav li {
 .btn_blue_big a {
     background-color: var(--db-btn);
     color: var(--db-white);
-    padding: 0.5rem 2.5rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
 }
 /* #endregion utilities */
 
