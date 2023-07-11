@@ -305,6 +305,10 @@ nav li {
 
 /* #region footer */
 
+.footer_top h4 {
+    font-size: 1rem;
+}
+
 .footer_top > div {
     width: calc(100% / 5);
     min-width: 150px;
