@@ -46,6 +46,14 @@ header a {
     font-size: 0.8rem;
 }
 
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
 footer {
     background-color: var(--db-black);
 }
@@ -102,9 +110,6 @@ nav li {
 
 /* section planes */
 
-#planes h3 {
-    font-size: 2rem;
-}
 
 .plane_col {
     border: 1px solid rgba(0, 0, 0, 0.25);
@@ -133,9 +138,6 @@ nav li {
     margin: auto;
 }
 
-#planes h4 {
-    font-size: 1.5rem;
-}
 
 .plane_block > div {
     padding: 0.5rem 0.5rem;
@@ -173,6 +175,10 @@ nav li {
 /* section partner */
 #partner .col_5 {
     padding: 3rem;
+}
+
+#partner .col_5 > div {
+    padding-bottom: 2rem;
 }
 
 /* section operations */
@@ -395,6 +401,14 @@ nav li {
     padding: 0.5rem 0.5rem;
     text-align: center;
 }
+
+.btn_light a {
+    background-color: var(--db-white);
+    color: var(--db-black);
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+}
+
 /* #endregion utilities */
 
 
@@ -459,12 +473,6 @@ nav li {
 .debug #planes .col_4 > div {
     border: 1px dashed;
     padding: 1rem;
-}
-
-.debug #planes a, #partner a {
-    border: 1px dashed red;
-    background-color: blue;
-    color: white;
 }
 
 .debug [class^=col_] {
