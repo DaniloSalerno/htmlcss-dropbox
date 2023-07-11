@@ -129,27 +129,12 @@ nav li {
     font-size: 0.8rem;
 }
 
-.plane_col > div {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
-
-.plane_col > div.links {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 #planes .btn_blue_big a {
     display: block;
-    width: 80%;
-    margin: auto;
 }
-
-
 .plane_block > div {
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 0;
 }
-
 
 
 #planes .col_4 .p_top_3 span {
@@ -172,6 +157,11 @@ nav li {
     margin-top: 2rem;
     border: 1px solid rgba(0, 0, 0, 0.25);
     font-size: 0.8rem;
+}
+
+#enterprise .btn_blue_big {
+    width: 80%;
+    margin: auto;
 }
 
 #enterprise .col_8 > div {
