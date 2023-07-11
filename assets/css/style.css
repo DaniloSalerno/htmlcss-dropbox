@@ -42,7 +42,6 @@ header {
 
 header a {
     color: var(--db-black);
-    font-weight: 400;
     font-size: 0.8rem;
 }
 
@@ -59,10 +58,6 @@ footer {
 }
 
 
-header a:hover,footer a:hover {
-    text-decoration: underline;
-}
-
 footer, footer a{
     color: white;
 }
@@ -74,6 +69,19 @@ footer, footer a{
 
 nav li {
     padding: 1rem;
+}
+
+.logo {
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.logo img {
+    display: block;
+}
+
+.right_nav > div {
+    padding-right: 1rem;
 }
 
 /* #endregion header */
@@ -113,7 +121,6 @@ nav li {
 
 .plane_col {
     border: 1px solid rgba(0, 0, 0, 0.25);
-    min-height: 800px;
     font-size: 0.8rem;
 }
 .name_plane {
@@ -145,7 +152,7 @@ nav li {
 
 
 
-#planes .col_4 span {
+#planes .col_4 .p_top_3 span {
     padding-bottom: 1.5rem;
     border-bottom:  1px solid rgba(0, 0, 0, 0.25);
 }
@@ -282,17 +289,6 @@ nav li {
 }
 
 .question_row .arrow :last-of-type {
-    display: none;
-}
-
-.question_row:hover .answer {
-    display: block;
-}
-
-.question_row:hover .arrow :last-of-type {
-    display: block;
-}
-.question_row:hover .arrow :first-of-type {
     display: none;
 }
 
@@ -455,12 +451,69 @@ nav li {
 }
 
 
+/* #endregion utilities */
+
+/* #region effects */
+
+header li:hover, header .logo:hover {
+    border-bottom: 2px solid black;
+}
+
+.btn_blue a {
+    transition: background-color 0.3s;
+}
+.btn_blue a:hover {
+    background-color: rgba(0, 98, 255, 0.7);
+}
+
+.btn_blue_big a {
+    transition: background-color 0.3s;
+}
+.btn_blue_big a:hover {
+    background-color: rgba(0, 98, 255, 0.7);
+}
+
+
+.btn_light a {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn_light a:hover {
+    background-color: var(--db-black);
+    color: var(--db-light);
+}
+
+
 #clients .col_8 a:hover, #planes .col_4 .p_top_3 a:hover {
     text-decoration: underline;
 }
-/* #endregion utilities */
 
 
+#operations .col_4 {
+    transition: box-shadow 0.5s;
+}
+#operations .col_4:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.question_row:hover .answer {
+    display: block;
+}
+
+.question_row:hover .arrow :last-of-type {
+    display: block;
+}
+.question_row:hover .arrow :first-of-type {
+    display: none;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* #endregion effects */
 
 /* #region debug */
 .debug header {
