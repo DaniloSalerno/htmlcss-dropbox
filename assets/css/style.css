@@ -102,14 +102,54 @@ nav li {
 
 /* section planes */
 
-#billing > div {
-    gap: 0.5rem;
-    align-items: center;
+#planes h3 {
+    font-size: 2rem;
+}
+
+.plane_col {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    min-height: 800px;
+    font-size: 0.8rem;
+}
+.plane_col > div:first-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+}
+
+.plane_col > div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.plane_col h4 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.plane_block > div {
+    padding: 0.5rem 0;
+}
+
+.plane_block span {
+    border-bottom:  1px solid rgba(0, 0, 0, 0.25);
+}
+
+.fa-check {
+    color: var(--db-btn);
+    padding-right: 0.25rem;
+}
+
+.term {
+    font-size: 0.75rem;
+    color: grey;
+    font-weight: 300;
 }
 
 #planes #enterprise {
     margin-top: 2rem;
 }
+
 
 /* section partner */
 #partner .col_5 {
@@ -267,8 +307,12 @@ nav li {
     gap: 0.5rem;
 }
 
-.pad_6 {
-    padding: 3rem;
+.pad_y_6 {
+    padding: 3rem 0;
+}
+
+.p_top_3 {
+    padding-top: 1.5rem;
 }
 
 .p_top_6 {
@@ -320,6 +364,12 @@ nav li {
     background-color: var(--db-btn);
     color: var(--db-white);
     padding: 0.25rem 1rem;
+}
+
+.btn_blue_big a {
+    background-color: var(--db-btn);
+    color: var(--db-white);
+    padding: 0.5rem 2.5rem;
 }
 /* #endregion utilities */
 
