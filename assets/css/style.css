@@ -33,6 +33,13 @@ a {
     text-decoration: none;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--db-white);
+}
+
 header a {
     color: var(--db-black);
     font-weight: 400;
@@ -73,15 +80,24 @@ nav li {
 }
 
 #jumbo_head {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
-#jumbo_description, #jumbo_img {
-    margin-top: 1rem;
-}
 
 #jumbo_description > div {
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
+}
+
+#jumbo_description div:last-of-type {
+    padding-bottom: 0;
+}
+
+#jumbo_description div:last-of-type a{
+    color: var(--db-black);
+}
+
+#jumbo_img {
+    margin-bottom: -5rem;
 }
 
 /* section planes */
@@ -249,6 +265,18 @@ nav li {
 
 .gap_1 {
     gap: 0.5rem;
+}
+
+.pad_6 {
+    padding: 3rem;
+}
+
+.p_top_6 {
+    padding-top: 3rem;
+}
+
+.p_top_16 {
+    padding-top: 8rem;
 }
 
 .text_center {
