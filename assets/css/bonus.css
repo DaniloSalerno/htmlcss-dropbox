@@ -1,3 +1,4 @@
+/* #region hidden menu header */
 
 header li, header .logo {
     border-bottom: none;
@@ -55,3 +56,93 @@ li.why_dropbox:hover .hidden_menu_why_dropbox, li.functions:hover .hidden_menu_f
 .hidden_menu_col li:hover a {
     background-color: grey;
 }
+
+/* #endregion hidden menu header */
+
+
+
+/* #region login */
+
+.container_login {
+    width: calc(100% / 3);
+    max-width: 700px;
+    margin: auto;
+    padding: 3rem;
+}
+
+.google, .apple {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin-top: 2rem;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.google:hover, .apple:hover {
+    background-color: var(--db-big-square);
+}
+
+.google:hover a, .apple:hover a {
+    color: black;
+}
+
+
+.enter a {
+    font-size: 0.9rem;
+    text-align: center;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: 600;
+}
+
+.enter h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.or {
+    margin: 3rem 0;
+}
+
+.or div::before{
+    content: '';
+    width: 30%;
+    display: inline-block;
+    height: 1px;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.or div::after{
+    content: '';
+    width: 30%;
+    display: inline-block;
+    height: 1px;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.or div {
+    text-align: center;
+}
+
+.or span {
+    padding: 1rem;
+}
+
+.sign_in .email div {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.75);
+    padding-bottom: 0.5rem;
+}
+
+.sign_in .email input {
+    width: 100%;
+    height: 50px;
+}
+
+.sign_in  .btn_blue_big {
+    margin-top: 2rem;
+}
+.sign_in  .btn_blue_big a {
+    display: block;
+}
+/* #endregion login */
