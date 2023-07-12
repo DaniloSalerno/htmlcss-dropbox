@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(247, 245, 242);
+}
+
+.cloud {
+    padding: 3rem;
+    text-align: center;
+}
+
+.cloud h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.card {
+    min-width: 360px;
+    min-height: 200px;
+    background-color: white;
+
+    padding: 1rem;
+}
+
+.card .plane_description {
+    padding-bottom: 2rem;
+}
+
+.card .buy {
+    padding-bottom: 5rem;
+}
+
+.buy a {
+    display: flex;
+    position: relative;
+}
+
+.buy a div:last-of-type {
+    position: absolute;
+    right: 3rem;
+    transition: right 0.5s;
+}
+
+.buy a:hover div:last-of-type {
+    right: 1.5rem;
+}
