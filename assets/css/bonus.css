@@ -28,7 +28,7 @@ header li:hover, header .logo:hover {
     background-color: var(--db-big-square);
 }
 
-.hidden_menu_contacts {
+.hidden_menu_contacts, .hidden_menu_support {
     display: none;
     position: absolute;
     right: 0;
@@ -36,7 +36,7 @@ header li:hover, header .logo:hover {
     background-color: var(--db-big-square);
 }
 
-li.why_dropbox:hover .hidden_menu_why_dropbox, li.functions:hover .hidden_menu_functions, li.contacts:hover .hidden_menu_contacts {
+li.why_dropbox:hover .hidden_menu_why_dropbox, li.functions:hover .hidden_menu_functions, li.contacts:hover .hidden_menu_contacts, li.support:hover .hidden_menu_support {
     display: flex;
 }
 
