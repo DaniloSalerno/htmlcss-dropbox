@@ -19,14 +19,23 @@ header li:hover, header .logo:hover {
 
 
 
-.hidden_menu_why_dropbox, .hidden_menu_functions {
+.hidden_menu_why_dropbox, .hidden_menu_functions{
     display: none;
     position: absolute;
     left: 0;
     top: 100%;
     background-color: var(--db-big-square);
 }
-li.why_dropbox:hover .hidden_menu_why_dropbox, li.functions:hover .hidden_menu_functions {
+
+.hidden_menu_contacts {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: var(--db-big-square);
+}
+
+li.why_dropbox:hover .hidden_menu_why_dropbox, li.functions:hover .hidden_menu_functions, li.contacts:hover .hidden_menu_contacts {
     display: flex;
 }
 
