@@ -1,0 +1,48 @@
+
+header li, header .logo {
+    border-bottom: none;
+}
+
+header li:hover, header .logo:hover {
+    border-bottom: none;
+} 
+
+
+.links_header > li{
+    position: relative;
+    padding: 1rem;
+}
+
+.links_header > li:hover {
+    background-color: var(--db-big-square);
+}
+
+
+
+.hidden_menu_why_dropbox, .hidden_menu_functions {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--db-big-square);
+}
+li.why_dropbox:hover .hidden_menu_why_dropbox, li.functions:hover .hidden_menu_functions {
+    display: flex;
+}
+
+.hidden_menu_col a, .hidden_menu_col strong {
+    display: flex;
+    padding: 1rem;
+}
+
+.hidden_menu_col {
+    font-size: 0.75rem;
+}
+
+.hidden_menu_col ul li {
+    min-width: 300px;
+}
+
+.hidden_menu_col li:hover a {
+    background-color: grey;
+}
