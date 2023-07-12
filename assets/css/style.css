@@ -199,6 +199,7 @@ footer, footer a{
     width: 50%;
 }
 
+
 #clients .left_box img, #clients .right_box img {
     filter: invert(100%) sepia(99%) saturate(2%) hue-rotate(252deg) brightness(107%) contrast(100%);
 }
@@ -211,8 +212,18 @@ footer, footer a{
     padding-bottom: 2rem;
 }
 
+#clients .description_box hr {
+    width: 100px;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+#clients .description_box img {
+    padding-bottom: 3rem;
+}
+
 .square_1 {
     background-color: var(--db-square1);
+    box-shadow: 0 0 0 12px inset rgb(214 255 201);
 }
 .square_2 {
     background-color: var(--db-square2);
