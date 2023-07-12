@@ -1,3 +1,25 @@
+:root {
+    --db-black: rgb(0, 0, 0);
+    --db-white: rgb(255, 255, 255);
+    --db-light: rgb(245, 245, 245);
+    --db-btn: rgb(0, 97, 255);
+    --db-bg-jumbo: rgb(180, 208, 231);
+    --db-business: rgb(97, 8, 43);
+
+    --db-big-square: rgb(245, 245, 245);
+    --db-square1: rgb(163, 211, 154);
+    --db-square2: rgb(96, 9, 43);
+    --db-square3: rgb(1, 146, 208);
+    --db-square4: rgb(254, 28, 29);
+    --db-square5: rgb(212, 1, 31);
+    --db-square6: rgb(180, 208, 231);
+    --db-square7: rgb(13, 37, 128);
+    --db-square8: rgb(254, 216, 49);
+}
+
+
+
+
 body {
     background-color: rgb(247, 245, 242);
 }
@@ -13,17 +35,52 @@ body {
     padding-bottom: 1rem;
 }
 
+.cards {
+    padding-bottom: 6rem;
+}
+
+
 .card {
-    min-width: 360px;
+    width: 360px;
     min-height: 200px;
     background-color: white;
 
-    padding: 1rem;
+    padding: 2rem;
 }
+
 
 .card .plane_description {
     padding-bottom: 2rem;
 }
+
+.target.single{
+    padding: 0.25rem 0.5rem;
+    background-color: var(--db-bg-jumbo);
+}
+
+.target.multi{
+    padding: 0.25rem 0.5rem;
+    background-color: var(--db-square1);
+}
+
+.type {
+    font-size: 1.75rem;
+    padding: 0.5rem 0;
+}
+
+.expense {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.rebate {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: grey;
+    padding: 1rem 0;
+}
+
+
 
 .card .buy {
     padding-bottom: 5rem;
@@ -34,6 +91,10 @@ body {
     position: relative;
 }
 
+.buy a {
+    padding: 1rem 0.5rem;
+}
+
 .buy a div:last-of-type {
     position: absolute;
     right: 3rem;
@@ -42,4 +103,12 @@ body {
 
 .buy a:hover div:last-of-type {
     right: 1.5rem;
+}
+
+.plus {
+    font-size: 0.9rem;
+}
+
+.plus div {
+    padding-bottom: 0.5rem;
 }
